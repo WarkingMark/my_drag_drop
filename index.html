@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--Шрифты Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap" rel="stylesheet">
+    <!--Шрифты Google fonts-->
+    <title>My Drag Drop</title>
+</head>
+<body>
+    <div class = "container">
+    <div class="message">
+        <h1>Перемещать карточки можно только в помеченные места!</h1>
+    </div>
+      <div class="row">
+          <div class="col-header start">row № 1</div>
+          <div class="col-header progress">row № 2</div>
+          <div class="col-header done">row № 3</div>
+      </div>
+
+      <div class="row">
+        <div class="placeholder">
+          <div class="item" draggable="true">
+            <img class="item__img" src="https://static.zerochan.net/Yuuki.Asuna.full.2443664.jpg" alt="Asuna" >
+              <div class="item__description">
+                <span class = "item__title">Asuna Yuuki</span>
+              </div>
+          </div>
+        </div>
+        <div class="placeholder"></div>
+        <div class="placeholder"></div>
+      </div>
+      <div class="row">
+        <div class="placeholder">
+          <div class="item" draggable="true">
+            <img class="item__img" src="https://dere.shikimori.one/system/characters/original/136529.jpg?1611122032" alt="Mumei" >
+              <div class="item__description">
+                <span class = "item__title">Mumei</span>
+              </div>
+          </div>
+        </div>
+        <div class="placeholder"></div>
+        <div class="placeholder"></div>
+      </div>
+      <div class="row">
+        <div class="placeholder">
+          <div class="item" draggable="true">
+            <img class="item__img" src="https://kawai.shikimori.one/system/characters/original/40881.jpg?1616188101" alt="Mikasa Ackerman" >
+              <div class="item__description">
+                <span class = "item__title">Mikasa Ackerman</span>
+              </div>
+          </div>
+        </div>
+        <div class="placeholder"></div>
+        <div class="placeholder"></div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
